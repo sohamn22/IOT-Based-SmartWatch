@@ -5,8 +5,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_PCD8544.h>
 
-const char* ssid = "Soham";
-const char* password = "nuas2713";
+const char* ssid = "***";
+const char* password = "***";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 19800, 60000);
